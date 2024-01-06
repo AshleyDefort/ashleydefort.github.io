@@ -1,9 +1,11 @@
 export const Bio = {
-  name: 'Ashley Mercado',
+  name: 'Ashley',
+  lastName: 'Mercado',
+  secondLastName: 'Defort',
   roles: [
       'Software Developer',
       'Full Stack Developer',
-      'Student',
+      'Math Student',
       'Programmer'
   ],
   description: "I am an enthusiastic and adaptable individual, constantly seeking fresh opportunities to grow. Driven by a fervent thirst for knowledge, I am committed to producing top-notch outcomes. Infused with positivity and embracing a mindset of continual growth, I aim to make a substantial impact and attain remarkable milestones.",

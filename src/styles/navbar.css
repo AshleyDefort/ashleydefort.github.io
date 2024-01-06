@@ -8,7 +8,7 @@ header{
   align-items: center;
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 100;
 }
 .nav{
   display: flex;
@@ -44,6 +44,7 @@ header{
 @media only screen and (max-width: 1024px){
   header{
     padding: 25px 50px 10px 50px;
+    background-color: white;
   }
   header .nav-btn{
     visibility: visible;
@@ -55,15 +56,17 @@ header{
     left: 0;
     height: 100vh;
     width: 100%;
+    display: none;
+    transition: 1s;
+  }
+  .nav.expanded{
+    opacity: 1;
     display: flex;  
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
     background-color: white;
-    transition: 1s;
-  }
-  .responsive-nav{
-    transform: translateY(-100vh);
+    z-index: 99;
   }
 }

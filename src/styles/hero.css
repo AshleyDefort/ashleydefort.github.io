@@ -1,0 +1,50 @@
+.hero-section{
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: start;
+    position: relative;
+    z-index: 1;
+    padding: 10%;
+}
+.hello-gif{
+    width: 60px;
+    border-radius: 50px;
+}
+.hero-hello{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:end;
+    font-size: 3vw;
+    margin-bottom: 10px;
+}
+.hero-name{
+    font-size: 2.5vw;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.name{
+    background-color: #AC87C5;
+}
+.last-name{
+    background-color: #E0AED0;
+}
+.second-last-name{
+    background-color: #FFE5E5;
+}
+.hero-roles{
+    font-size: 2.5vw;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.hero-description{
+    font-size: 2vw;
+    font-family: 'Imprima', sans-serif;
+    color: rgb(58, 58, 58);
+    margin-top: 10px;
+    line-height: 1.3;
+}
