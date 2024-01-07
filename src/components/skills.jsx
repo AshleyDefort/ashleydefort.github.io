@@ -17,7 +17,7 @@ function SkillsSection() {
                   
                   <p>{item.name}</p>
                 </div>
-              ))}
+              ))}   
             </div>
           </div>
         ))}

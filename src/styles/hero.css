@@ -1,13 +1,12 @@
 .hero-section{
     top: 0;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
     align-items: start;
     position: relative;
     z-index: 1;
-    padding: 10%;
+    padding: 10% 10% 0 10%;
 }
 .hello-gif{
     width: 60px;

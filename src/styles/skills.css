@@ -1,0 +1,26 @@
+.skills-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5% 10% 0 10%;
+    font-family: 'Imprima', sans-serif;
+    font-size: 2vw;
+    line-height: 1.3;
+    gap: 10px;
+    z-index: 1;
+    position: relative;
+    top: 0;
+}
+.skills-title{
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+.skill-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}

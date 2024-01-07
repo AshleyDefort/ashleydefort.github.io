@@ -19,7 +19,7 @@ function NavBar() {
         <a className="item" href="#about" onClick={closeNav}>
           About
         </a>
-        <a className="item" href="#" onClick={closeNav}>
+        <a className="item" href="#skills" onClick={closeNav}>
           Skills
         </a>
         <a className="item" href="#" onClick={closeNav}>
