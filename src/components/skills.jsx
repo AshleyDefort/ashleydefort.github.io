@@ -6,6 +6,7 @@ function SkillsSection() {
     <div className="skills-section" id="skills">
       <div className="skills-title">
         <h1>Skills</h1>
+        <p>Here are some of my skills on wich I've been working on for the past 3 years</p>
       </div>
       <div className="skills-list">
         {Skills.map((skill) => (
@@ -14,7 +15,7 @@ function SkillsSection() {
             <div className="skill-list">
               {skill.skills.map((item) => (
                 <div className="skill-item" key={item.name}>
-                  
+                  {item.icon}
                   <p>{item.name}</p>
                 </div>
               ))}   

@@ -1,3 +1,7 @@
+import { FaReact, FaHtml5, FaCss3, FaBootstrap, FaPhp, FaNodeJs, FaGitAlt, FaGithub  } from "react-icons/fa";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { IoLogoJavascript } from "react-icons/io";
+import { SiTailwindcss, SiMongodb, SiMysql, SiVisualstudio } from "react-icons/si";
 export const Bio = {
   name: 'Ashley',
   lastName: 'Mercado',
@@ -21,35 +25,27 @@ export const Skills = [
     skills: [
       {
         name: 'React',
-        icon: 'react'
+        icon: <FaReact/>
       },
       {
         name: 'JavaScript',
-        icon: 'javascript'
+        icon: <IoLogoJavascript/>
       },
       {
         name: 'HTML',
-        icon: 'html'
+        icon: <FaHtml5/>
       },
       {
         name: 'CSS',
-        icon: 'css'
+        icon: <FaCss3/>
       },
       {
         name: 'Bootstrap',
-        icon: 'bootstrap'
-      },
-      {
-        name: 'Material UI',
-        icon: 'materialui'
+        icon: <FaBootstrap/>
       },
       {
         name: 'Tailwind CSS',
-        icon: 'tailwind'
-      },
-      {
-        name: 'Styled Components',
-        icon: 'styledcomponents'
+        icon: <SiTailwindcss/>
       }
     ]
   },
@@ -58,31 +54,23 @@ export const Skills = [
     skills: [
       {
         name: 'PHP',
-        icon: 'php'
+        icon: <FaPhp/>
       },
       {
         name: 'Node.js',
-        icon: 'nodejs'
-      },
-      {
-        name: 'Express',
-        icon: 'express'
+        icon: <FaNodeJs/>
       },
       {
         name: 'MongoDB',
-        icon: 'mongodb'
+        icon: <SiMongodb/>
       },
       {
         name: 'MySQL',
-        icon: 'mysql'
+        icon: <SiMysql/>
       },
       {
         name: 'PostgreSQL',
-        icon: 'postgresql'
-      },
-      {
-        name: 'Firebase',
-        icon: 'firebase'
+        icon: <BiLogoPostgresql/>
       }
     ]
   },
@@ -91,15 +79,15 @@ export const Skills = [
     skills: [
       {
         name: 'Git',
-        icon: 'git'
+        icon: <FaGitAlt/>
       },
       {
         name: 'GitHub',
-        icon: 'github'
+        icon: <FaGithub/>
       },
       {
         name: 'Visual Studio Code',
-        icon: 'vscode'
+        icon: <SiVisualstudio/>
       }
     ]
   }
