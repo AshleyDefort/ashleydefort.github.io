@@ -98,18 +98,21 @@ export const Skills = [
 export const Projects = [
   {
     name: 'Portfolio',
+    backgroundColor: "#AC87C5",
     description: 'My personal portfolio website.',
     tags: ['React', 'JavaScript', 'HTML', 'CSS', 'Material UI'],
     github: ''
   },
   {
     name: 'DevConnector',
+    backgroundColor: "#E0AED0",
     description: 'A social network for developers.',
     tags: ['React', 'Node.js', 'Express', 'MongoDB', 'JavaScript', 'HTML', 'CSS', 'Bootstrap'],
     github: ''
   },
   {
     name: 'Contact Keeper',
+    backgroundColor: "#5D3587",
     description: 'A full stack MERN application for keeping contacts.',
     tags: ['React', 'Node.js', 'Express', 'MongoDB', 'JavaScript', 'HTML', 'CSS', 'Bootstrap'],
     github: ''

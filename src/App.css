@@ -13,12 +13,24 @@ body{
   padding: 0% !important;
   font-family: 'Sora', sans-serif;
 }
+.footer{
+  background-color: #F3CCF3;
+  color: rgb(58, 58, 58);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  margin-top: 10px;
+}
 /*Las reglas de CSS que se aplican son para personalizar la barra de deslizamiento del navegador.*/
 /*Estas reglas solo funcionan en navegadores basados en WebKit como Chrome, Safari y Opera (No funciona en Microsoft Edge)*/
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
-  height: 30px;
+  height: 10px;
 }
 
 /* Track */

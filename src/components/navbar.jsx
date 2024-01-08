@@ -1,7 +1,8 @@
-import React, { useState } from "react";
 import "../styles/navbar.css";
-import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../images/logo.png";
+import React, { useState } from "react";
+import { MdArrowOutward } from "react-icons/md";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 function NavBar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -22,14 +23,15 @@ function NavBar() {
         <a className="item" href="#skills" onClick={closeNav}>
           Skills
         </a>
-        <a className="item" href="#" onClick={closeNav}>
+        <a className="item" href="#projects" onClick={closeNav}>
           Projects
         </a>
-        <a className="item" href="#" onClick={closeNav}>
+        <a className="item" href="https://drive.google.com/file/d/1OQr5JuGq-cPx-mzK98bxGWoWzFrxLIX8/view?usp=sharing" target="_blank" onClick={closeNav}>
           Resume
         </a>
-        <a className="item" href="#" onClick={closeNav}>
+        <a className="item" href="#contact" onClick={closeNav}>
           Contact
+          <MdArrowOutward />
         </a>
         <button
           className="nav-btn nav-close-btn"
