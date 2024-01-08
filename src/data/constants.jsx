@@ -22,6 +22,7 @@ export const Bio = {
 export const Skills = [
   {
     title: 'Frontend',
+    backgroundColor: "#AC87C5",
     skills: [
       {
         name: 'React',
@@ -51,6 +52,7 @@ export const Skills = [
   },
   {
     title: 'Backend',
+    backgroundColor: "#E0AED0",
     skills: [
       {
         name: 'PHP',
@@ -76,6 +78,7 @@ export const Skills = [
   },
   {
     title: 'Others',
+    backgroundColor: "#5D3587",
     skills: [
       {
         name: 'Git',

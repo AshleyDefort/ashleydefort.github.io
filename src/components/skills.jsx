@@ -10,7 +10,7 @@ function SkillsSection() {
       </div>
       <div className="skills-list">
         {Skills.map((skill) => (
-          <div className="skill" key={skill.title}>
+          <div className="skill" key={skill.title} style={{boxShadow: `0px 0px 20px 0px ${skill.backgroundColor}`,}}>
             <h3>{skill.title}</h3>
             <div className="skill-list">
               {skill.skills.map((item) => (
