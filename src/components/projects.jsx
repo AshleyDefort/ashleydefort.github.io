@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/projects.css";
+import ProjectImage from "../images/project.jpg";
+import { FaGithub } from "react-icons/fa";
 import { Projects } from "../data/constants.jsx";
 function ProjectsSection() {
   return (
@@ -10,9 +12,9 @@ function ProjectsSection() {
       </div>
       <div className="projects-section-list">
       {Projects.map((project) => (
-          <div className="project" key={project.name}>
+          <div className="project" key={project.name} style={{boxShadow: `0px 0px 20px 0px ${project.backgroundColor}`,}}>
             <div className="project-image">
-              <img src={project.image} alt={project.name} />
+              <img src={ProjectImage} alt={project.name} />
             </div>
             <div className="project-info">
               <h3>{project.name}</h3>
@@ -25,7 +27,7 @@ function ProjectsSection() {
               <div className="project-links">
                 {project.github !== "" ? (
                   <a href={project.github} target="_blank" rel="noreferrer">
-                    <i className="fab fa-github"></i>
+                    <FaGithub />
                   </a>
                 ) : (
                   <></>
