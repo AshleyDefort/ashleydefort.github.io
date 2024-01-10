@@ -48,30 +48,31 @@ header{
 }
 @media only screen and (max-width: 1024px){
   header{
-    padding: 25px 50px 10px 50px;
+    width: 100%;
+    padding: 50px 50px 10px 50px;
     background-color: white;
   }
   header .nav-btn{
     visibility: visible;
     opacity: 1;
   }
-  .nav{
+  header .nav{
     position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-    display: none;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: white;
+		transition: 1s;
+    z-index: 99;
   }
   .nav.expanded{
-    opacity: 1;
-    display: flex;  
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
-    background-color: white;
-    z-index: 99;
-    transition: all 1s ease-in-out;
+    transform: translateY(100vh);
   }
+
 }
