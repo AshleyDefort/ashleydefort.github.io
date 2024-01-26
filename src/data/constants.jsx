@@ -12,7 +12,7 @@ export const Bio = {
       'Math Student',
       'Programmer'
   ],
-  description: "I am an enthusiastic and adaptable individual, constantly seeking fresh opportunities to grow. Driven by a fervent thirst for knowledge, I am committed to producing top-notch outcomes. Infused with positivity and embracing a mindset of continual growth, I aim to make a substantial impact and attain remarkable milestones.",
+  description: "I'm a Colombian programmer with a passion for crafting digital solutions, diving into web, mobile, and desktop development since 2021. I earned my tech degree in information systems (2022-2023) and currently, I'm on a dual degree journey in Mathematics and Data Science at Universidad del Norte, Barranquilla. For more details, feel free to reach out through my contact information.",
   github: 'https://github.com/AshleyDefort',
   linkedin: 'https://www.linkedin.com/in/ashley-mercado-defort',
   twitter: 'https://twitter.com/ashdefort',
