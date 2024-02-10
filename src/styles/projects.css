@@ -64,7 +64,7 @@
   text-align: center;
 }
 .project-info p{
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   margin-bottom: 10px;
 }
 .project-tags{
@@ -93,5 +93,8 @@
   }
   .project-info {
     width: 100%;
+  }
+  .project-info p {
+    font-size: 1.5vw;
   }
 }

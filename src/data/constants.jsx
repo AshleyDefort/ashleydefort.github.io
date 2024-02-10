@@ -97,10 +97,10 @@ export const Skills = [
 ]
 export const Projects = [
   {
-    name: 'Portfolio',
+    name: 'AprendeMat',
     backgroundColor: "#AC87C5",
-    description: 'My personal portfolio website.',
-    tags: ['React', 'JavaScript', 'HTML', 'CSS', 'Material UI'],
+    description: 'A web platform for learning mathematics through instructional content and assessments.',
+    tags: ['React', 'JavaScript', 'HTML', 'CSS', 'PostgreSQL', 'Node.js'],
     github: ''
   },
   {
