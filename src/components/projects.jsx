@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/projects.css";
-import ProjectImage from "../images/project.jpg";
 import { FaGithub } from "react-icons/fa";
 import { Projects } from "../data/constants.jsx";
 function ProjectsSection() {
@@ -14,7 +13,7 @@ function ProjectsSection() {
       {Projects.map((project) => (
           <div className="project" key={project.name} style={{boxShadow: `0px 0px 20px 0px ${project.backgroundColor}`,}}>
             <div className="project-image">
-              <img src={ProjectImage} alt={project.name} />
+              <img src={require(`../images/project-${project.image}.jpeg`)}  alt={project.name} />
             </div>
             <div className="project-info">
               <h3>{project.name}</h3>

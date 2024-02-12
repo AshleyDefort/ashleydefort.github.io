@@ -101,20 +101,23 @@ export const Projects = [
     backgroundColor: "#AC87C5",
     description: 'A web platform for learning mathematics through instructional content and assessments.',
     tags: ['React', 'JavaScript', 'HTML', 'CSS', 'PostgreSQL', 'Node.js'],
-    github: ''
+    github: '',
+    image: 'aprendemat'
   },
   {
     name: 'DevConnector',
     backgroundColor: "#E0AED0",
     description: 'A social network for developers.',
     tags: ['React', 'Node.js', 'Express', 'MongoDB', 'JavaScript', 'HTML', 'CSS', 'Bootstrap'],
-    github: ''
+    github: '',
+    image: 'aprendemat'
   },
   {
     name: 'Contact Keeper',
     backgroundColor: "#5D3587",
     description: 'A full stack MERN application for keeping contacts.',
     tags: ['React', 'Node.js', 'Express', 'MongoDB', 'JavaScript', 'HTML', 'CSS', 'Bootstrap'],
-    github: ''
+    github: '',
+    image: 'aprendemat'
   }
 ]
