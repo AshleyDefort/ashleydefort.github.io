@@ -13,9 +13,9 @@ function NavBar() {
 
   return (
     <header>
-      <div className="logo-container">
+      {/*<div className="logo-container">
         <img src={logo} alt="logo" className="logo" />
-      </div>
+      </div>*/}
       <nav className={isNavExpanded ? "nav expanded" : "nav"}>
         <a className="item" href="#about" onClick={closeNav}>
           About

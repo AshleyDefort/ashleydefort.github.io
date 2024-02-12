@@ -7,7 +7,7 @@ function ContactSection() {
   return (
     <div className="contact-section" id="contact">
       <div className="contact-title">
-        <h1>Contact</h1>
+        <h2>Contact</h2>
         <p>Feel free to contact me through any of my social media</p>
       </div>
       <div className="contact-list">

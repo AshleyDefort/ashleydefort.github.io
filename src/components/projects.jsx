@@ -6,7 +6,7 @@ function ProjectsSection() {
   return (
     <div className="projects-section" id="projects">
       <div className="projects-section-title">
-        <h1>Projects</h1>
+        <h2>Projects</h2>
         <p>These are some of the projects I am currently working on.</p>
       </div>
       <div className="projects-section-list">

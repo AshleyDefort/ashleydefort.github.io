@@ -2,9 +2,9 @@
   --color1: #F3CCF3;
 }
 header{
-  padding: 25px 50px 10px 100px;
+  padding-top: 25px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   position: sticky;
   top: 0;
@@ -49,8 +49,9 @@ header{
 @media only screen and (max-width: 1024px){
   header{
     width: 100%;
-    padding: 50px 50px 10px 50px;
     background-color: white;
+    justify-content: flex-end;
+    padding-right: 20px;
   }
   header .nav-btn{
     visibility: visible;
